@@ -1,0 +1,35 @@
+Hello. How are you feeling today?
+I am feeling good today. The weather was nice so I went for a walk.
+Learning to program is hard at first, but it gets easier with steady practice.
+Python has simple syntax, which makes it a great language for beginners.
+JavaScript is the main programming language that runs inside web browsers.
+When making a game, it is important to first decide what kind of game you want to build.
+Fixing bugs is also a great way to improve your programming skills.
+Question: What is artificial intelligence?
+Answer: Artificial intelligence is technology that lets computers learn and make decisions in ways similar to humans.
+Question: How does a neural network learn?
+Answer: A neural network learns by measuring the difference between its prediction and the correct answer, then slightly adjusting its weights to reduce that error.
+Question: What does a tokenizer do?
+Answer: A tokenizer splits a sentence into smaller pieces called tokens that a computer can work with.
+Here is my to-do list for today. First, write the code. Second, run the tests. Third, clean up the documentation.
+A computer program is, in the end, just a sequence of instructions executed in order.
+A variable is like a labeled box that stores a value so you can use it again later.
+A function bundles a piece of reusable code that performs a specific task.
+Loops let you run the same piece of code multiple times.
+Conditionals let your program take different paths depending on the situation.
+Debugging means finding and fixing errors in a program.
+To become a good developer, you need to read a lot of code, write a lot of code, and fix a lot of code.
+Game developers need knowledge across many fields: design, programming, graphics, and sound.
+Lua is a lightweight and fast scripting language that is popular in game engines.
+C# is the main programming language used in the Unity game engine.
+HTML is the markup language used to build the structure of a web page.
+Today is the day I start a new project. I feel excited as I write the first line of code.
+When facing a hard problem, it helps to break it into small pieces and solve them one at a time.
+Practice makes progress, and coding becomes more natural the more you do it.
+Question: Do you have a favorite programming language?
+Answer: It depends on the person, but Python is easy to learn and JavaScript is useful for the web, so both are popular choices.
+Tonight I am having dinner with a friend.
+On weekends I usually read a book or watch a movie.
+The goal of this project is to build a tiny language model completely from scratch.
+Generally, more data and more training tend to improve a model's performance.
+This model right now is a very early version trained on a very small amount of data.

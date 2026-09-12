@@ -1,0 +1,194 @@
+# Python 예제 모음 / Python example collection
+# 이 파일은 처음부터 학습시키는 작은 언어모델을 위해 직접 작성한 예제입니다.
+
+# 1. Hello world
+print("Hello, world!")
+print("안녕하세요, 세계!")
+
+# 2. 변수와 자료형 / variables and types
+name = "Claude"
+age = 3
+is_ready = True
+score = 98.5
+
+# 3. 함수 정의 / function definition
+def add(a, b):
+    """두 수를 더해서 반환한다."""
+    return a + b
+
+
+def greet(name):
+    # 이름을 받아 인사말을 출력한다
+    print(f"안녕, {name}!")
+
+
+# 4. 조건문 / conditionals
+def check_number(n):
+    if n > 0:
+        return "양수"
+    elif n < 0:
+        return "음수"
+    else:
+        return "영"
+
+
+# 5. 반복문 / loops
+def sum_to_n(n):
+    total = 0
+    for i in range(1, n + 1):
+        total += i
+    return total
+
+
+def countdown(n):
+    while n > 0:
+        print(n)
+        n -= 1
+    print("발사!")
+
+
+# 6. 리스트와 반복 / lists
+numbers = [1, 2, 3, 4, 5]
+squares = [x * x for x in numbers]
+evens = [x for x in numbers if x % 2 == 0]
+
+
+def find_max(items):
+    biggest = items[0]
+    for item in items:
+        if item > biggest:
+            biggest = item
+    return biggest
+
+
+# 7. 재귀 / recursion
+def factorial(n):
+    if n <= 1:
+        return 1
+    return n * factorial(n - 1)
+
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    return fibonacci(n - 1) + fibonacci(n - 2)
+
+
+# 8. 문자열 처리 / string handling
+def reverse_string(s):
+    return s[::-1]
+
+
+def is_palindrome(s):
+    cleaned = s.replace(" ", "").lower()
+    return cleaned == cleaned[::-1]
+
+
+def count_vowels(s):
+    vowels = "aeiouAEIOU"
+    return sum(1 for ch in s if ch in vowels)
+
+
+# 9. 클래스 / classes
+class Player:
+    """간단한 게임 캐릭터 클래스."""
+
+    def __init__(self, name, hp=100):
+        self.name = name
+        self.hp = hp
+        self.level = 1
+
+    def take_damage(self, amount):
+        self.hp -= amount
+        if self.hp < 0:
+            self.hp = 0
+
+    def is_alive(self):
+        return self.hp > 0
+
+    def level_up(self):
+        self.level += 1
+        self.hp += 10
+
+
+class Inventory:
+    def __init__(self):
+        self.items = []
+
+    def add_item(self, item):
+        self.items.append(item)
+
+    def remove_item(self, item):
+        if item in self.items:
+            self.items.remove(item)
+
+
+# 10. 딕셔너리 / dictionaries
+player_scores = {"alice": 100, "bob": 85, "carol": 92}
+
+
+def get_top_player(scores):
+    return max(scores, key=scores.get)
+
+
+# 11. 예외 처리 / error handling
+def safe_divide(a, b):
+    try:
+        return a / b
+    except ZeroDivisionError:
+        print("0으로 나눌 수 없습니다")
+        return None
+
+
+# 12. 파일 다루기 / file handling
+def read_lines(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return f.readlines()
+
+
+def write_text(path, text):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(text)
+
+
+# 13. 정렬 알고리즘 / sorting algorithm
+def bubble_sort(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+    return arr
+
+
+def binary_search(arr, target):
+    low, high = 0, len(arr) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if arr[mid] == target:
+            return mid
+        elif arr[mid] < target:
+            low = mid + 1
+        else:
+            high = mid - 1
+    return -1
+
+
+# 14. 소수 판별 / prime check
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n ** 0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+
+# 15. 메인 실행부 / main entry point
+if __name__ == "__main__":
+    greet("world")
+    print(sum_to_n(10))
+    print(is_prime(17))
+    p = Player("Hero")
+    p.take_damage(30)
+    print(p.hp, p.is_alive())

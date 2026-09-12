@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>my-own-ai (웹 버전)</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --panel: #171a21;
+    --border: #2a2f3a;
+    --text: #e6e6e6;
+    --muted: #9aa4b2;
+    --accent: #7c9eff;
+    --accent2: #5ee6a8;
+    --danger: #ff6b6b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  #loginScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 16px;
+  }
+  #loginScreen h1 { font-size: 1.4rem; margin-bottom: 0; }
+  button {
+    background: var(--accent);
+    color: #0f1115;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button:disabled { opacity: 0.5; cursor: not-allowed; }
+  button.secondary { background: var(--panel); color: var(--text); border: 1px solid var(--border); }
+  button.danger { background: var(--danger); color: #1a0000; }
+  #appScreen { display: none; max-width: 880px; margin: 0 auto; padding: 20px; }
+  header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
+  header h1 { font-size: 1.2rem; margin: 0; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    margin-bottom: 16px;
+  }
+  .panel h2 { font-size: 1rem; margin: 0 0 10px 0; color: var(--accent2); }
+  label { font-size: 0.85rem; color: var(--muted); display: block; margin-bottom: 4px; }
+  input[type=text], input[type=number] {
+    width: 100%;
+    background: #0f1115;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 100%;
+    background: #0a0c10;
+    border: 1px solid var(--border);
+    color: var(--text);
+    border-radius: 6px;
+    padding: 10px;
+    font-family: ui-monospace, monospace;
+    font-size: 0.82rem;
+  }
+  #log { height: 160px; overflow-y: auto; white-space: pre-wrap; }
+  #output { min-height: 80px; white-space: pre-wrap; }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: end; }
+  .row > div { flex: 1; min-width: 100px; }
+  .inline { display: flex; gap: 8px; align-items: center; }
+  #status { color: var(--muted); font-size: 0.85rem; }
+  #corpusInfo { color: var(--muted); font-size: 0.8rem; margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<div id="loginScreen">
+  <h1>my-own-ai</h1>
+  <p style="color:var(--muted)">계속하려면 로그인하세요</p>
+  <button id="googleLoginBtn">Google로 로그인</button>
+</div>
+
+<div id="appScreen">
+  <header>
+    <h1>my-own-ai — 처음부터 만든 코딩 AI (웹 버전)</h1>
+    <div class="inline">
+      <span id="userInfo" style="color:var(--muted); font-size:0.85rem;"></span>
+      <button class="secondary" id="logoutBtn">로그아웃</button>
+    </div>
+  </header>
+
+  <div class="panel">
+    <h2>상태</h2>
+    <div id="status">초기화 중...</div>
+    <div id="corpusInfo"></div>
+  </div>
+
+  <div class="panel">
+    <h2>텍스트 생성</h2>
+    <input type="text" id="prompt" placeholder="예: def, function greet, local function ...">
+    <button id="genBtn">생성하기</button>
+    <div id="output" style="margin-top:10px;"></div>
+  </div>
+
+  <div class="panel">
+    <h2>학습</h2>
+    <div class="row">
+      <div>
+        <label>스텝 수</label>
+        <input type="number" id="steps" value="800">
+      </div>
+      <div>
+        <label>배치 크기</label>
+        <input type="number" id="batchSize" value="4">
+      </div>
+      <div class="inline">
+        <button id="trainBtn">학습 시작</button>
+        <button class="secondary" id="stopBtn">중지</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel">
+    <h2>깃허브 study 파일 자동 학습</h2>
+    <label>study 파일의 raw URL (예: https://raw.githubusercontent.com/사용자명/저장소/main/study.txt)</label>
+    <input type="text" id="githubUrl" placeholder="https://raw.githubusercontent.com/...">
+    <div class="row">
+      <div>
+        <label>반영 시 추가 학습 스텝 수</label>
+        <input type="number" id="autoSteps" value="200">
+      </div>
+      <div class="inline">
+        <button id="fetchBtn">지금 가져와서 학습</button>
+      </div>
+      <div class="inline">
+        <input type="checkbox" id="autoCheck">
+        <label style="margin:0;">자동으로 주기 확인</label>
+        <input type="number" id="autoMinutes" value="5" style="width:60px;">
+        <span style="color:var(--muted);">분마다</span>
+      </div>
+    </div>
+    <p style="color:var(--muted); font-size:0.8rem;">
+      * 이 페이지가 열려있는 동안에만 동작합니다 (정적 페이지라 닫혀있을 땐 학습되지 않습니다).
+      공개 저장소만 가능합니다.
+    </p>
+  </div>
+
+  <div class="panel">
+    <h2>로그</h2>
+    <div id="log"></div>
+  </div>
+
+  <div class="panel">
+    <h2>위험 구역</h2>
+    <button class="danger" id="resetBtn">저장된 모델/데이터 전부 초기화</button>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.0/firebase-auth-compat.js"></script>
+
+<script>
+const DEFAULT_CORPUS = __DEFAULT_CORPUS__;
+</script>
+
+<script>
+__TOKENIZER_JS__
+</script>
+
+<script>
+__NN_JS__
+</script>
+
+<script>
+__MODEL_JS__
+</script>
+
+<script>
+__OPTIMIZER_JS__
+</script>
+
+<script>
+__TRAIN_JS__
+</script>
+
+<script>
+__APP_JS__
+</script>
+
+<script>
+__AUTH_JS__
+</script>
+
+</body>
+</html>

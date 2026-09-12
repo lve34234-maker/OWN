@@ -1,0 +1,1199 @@
+function add0(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet0(name = "Morgan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop0() {
+  let total = 0;
+  for (let i = 0; i < 20; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven0 = (n) => n % 2 === 0;
+
+function add1(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet1(name = "민준") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop1() {
+  let total = 0;
+  for (let i = 0; i < 19; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven1 = (n) => n % 2 === 0;
+
+function add2(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet2(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop2() {
+  let total = 0;
+  for (let i = 0; i < 6; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven2 = (n) => n % 2 === 0;
+
+function subtract3(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet3(name = "민준") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop3() {
+  let total = 0;
+  for (let i = 0; i < 9; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven3 = (n) => n % 2 === 0;
+
+function subtract4(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet4(name = "Sam") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop4() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven4 = (n) => n % 2 === 0;
+
+function subtract5(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet5(name = "Sam") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop5() {
+  let total = 0;
+  for (let i = 0; i < 18; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven5 = (n) => n % 2 === 0;
+
+function add6(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet6(name = "Sam") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop6() {
+  let total = 0;
+  for (let i = 0; i < 5; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven6 = (n) => n % 2 === 0;
+
+function add7(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet7(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop7() {
+  let total = 0;
+  for (let i = 0; i < 5; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven7 = (n) => n % 2 === 0;
+
+function add8(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet8(name = "서연") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop8() {
+  let total = 0;
+  for (let i = 0; i < 10; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven8 = (n) => n % 2 === 0;
+
+function subtract9(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet9(name = "도윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop9() {
+  let total = 0;
+  for (let i = 0; i < 12; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven9 = (n) => n % 2 === 0;
+
+function add10(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet10(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop10() {
+  let total = 0;
+  for (let i = 0; i < 18; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven10 = (n) => n % 2 === 0;
+
+function subtract11(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet11(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop11() {
+  let total = 0;
+  for (let i = 0; i < 3; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven11 = (n) => n % 2 === 0;
+
+function add12(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet12(name = "Casey") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop12() {
+  let total = 0;
+  for (let i = 0; i < 10; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven12 = (n) => n % 2 === 0;
+
+function add13(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet13(name = "철수") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop13() {
+  let total = 0;
+  for (let i = 0; i < 12; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven13 = (n) => n % 2 === 0;
+
+function add14(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet14(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop14() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven14 = (n) => n % 2 === 0;
+
+function multiply15(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet15(name = "Morgan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop15() {
+  let total = 0;
+  for (let i = 0; i < 19; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven15 = (n) => n % 2 === 0;
+
+function multiply16(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet16(name = "Casey") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop16() {
+  let total = 0;
+  for (let i = 0; i < 19; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven16 = (n) => n % 2 === 0;
+
+function add17(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet17(name = "지훈") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop17() {
+  let total = 0;
+  for (let i = 0; i < 4; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven17 = (n) => n % 2 === 0;
+
+function multiply18(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet18(name = "서연") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop18() {
+  let total = 0;
+  for (let i = 0; i < 19; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven18 = (n) => n % 2 === 0;
+
+function add19(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet19(name = "Taylor") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop19() {
+  let total = 0;
+  for (let i = 0; i < 20; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven19 = (n) => n % 2 === 0;
+
+function multiply20(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet20(name = "서연") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop20() {
+  let total = 0;
+  for (let i = 0; i < 15; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven20 = (n) => n % 2 === 0;
+
+function add21(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet21(name = "영희") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop21() {
+  let total = 0;
+  for (let i = 0; i < 11; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven21 = (n) => n % 2 === 0;
+
+function subtract22(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet22(name = "영희") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop22() {
+  let total = 0;
+  for (let i = 0; i < 13; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven22 = (n) => n % 2 === 0;
+
+function add23(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet23(name = "예은") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop23() {
+  let total = 0;
+  for (let i = 0; i < 5; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven23 = (n) => n % 2 === 0;
+
+function subtract24(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet24(name = "Casey") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop24() {
+  let total = 0;
+  for (let i = 0; i < 6; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven24 = (n) => n % 2 === 0;
+
+function add25(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet25(name = "하윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop25() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven25 = (n) => n % 2 === 0;
+
+function subtract26(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet26(name = "철수") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop26() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven26 = (n) => n % 2 === 0;
+
+function multiply27(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet27(name = "Jordan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop27() {
+  let total = 0;
+  for (let i = 0; i < 15; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven27 = (n) => n % 2 === 0;
+
+function multiply28(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet28(name = "예은") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop28() {
+  let total = 0;
+  for (let i = 0; i < 10; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven28 = (n) => n % 2 === 0;
+
+function add29(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet29(name = "지훈") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop29() {
+  let total = 0;
+  for (let i = 0; i < 14; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven29 = (n) => n % 2 === 0;
+
+function add30(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet30(name = "Jamie") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop30() {
+  let total = 0;
+  for (let i = 0; i < 9; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven30 = (n) => n % 2 === 0;
+
+function add31(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet31(name = "Morgan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop31() {
+  let total = 0;
+  for (let i = 0; i < 13; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven31 = (n) => n % 2 === 0;
+
+function subtract32(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet32(name = "예은") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop32() {
+  let total = 0;
+  for (let i = 0; i < 9; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven32 = (n) => n % 2 === 0;
+
+function add33(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet33(name = "도윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop33() {
+  let total = 0;
+  for (let i = 0; i < 14; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven33 = (n) => n % 2 === 0;
+
+function subtract34(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet34(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop34() {
+  let total = 0;
+  for (let i = 0; i < 4; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven34 = (n) => n % 2 === 0;
+
+function subtract35(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet35(name = "Taylor") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop35() {
+  let total = 0;
+  for (let i = 0; i < 18; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven35 = (n) => n % 2 === 0;
+
+function subtract36(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet36(name = "Jordan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop36() {
+  let total = 0;
+  for (let i = 0; i < 2; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven36 = (n) => n % 2 === 0;
+
+function add37(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet37(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop37() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven37 = (n) => n % 2 === 0;
+
+function multiply38(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet38(name = "Alex") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop38() {
+  let total = 0;
+  for (let i = 0; i < 3; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven38 = (n) => n % 2 === 0;
+
+function add39(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet39(name = "Casey") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop39() {
+  let total = 0;
+  for (let i = 0; i < 13; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven39 = (n) => n % 2 === 0;
+
+function multiply40(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet40(name = "Jordan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop40() {
+  let total = 0;
+  for (let i = 0; i < 15; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven40 = (n) => n % 2 === 0;
+
+function multiply41(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet41(name = "지훈") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop41() {
+  let total = 0;
+  for (let i = 0; i < 14; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven41 = (n) => n % 2 === 0;
+
+function multiply42(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet42(name = "도윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop42() {
+  let total = 0;
+  for (let i = 0; i < 10; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven42 = (n) => n % 2 === 0;
+
+function add43(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet43(name = "Casey") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop43() {
+  let total = 0;
+  for (let i = 0; i < 2; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven43 = (n) => n % 2 === 0;
+
+function multiply44(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet44(name = "도윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop44() {
+  let total = 0;
+  for (let i = 0; i < 13; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven44 = (n) => n % 2 === 0;
+
+function subtract45(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet45(name = "민준") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop45() {
+  let total = 0;
+  for (let i = 0; i < 12; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven45 = (n) => n % 2 === 0;
+
+function multiply46(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet46(name = "Jordan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop46() {
+  let total = 0;
+  for (let i = 0; i < 5; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven46 = (n) => n % 2 === 0;
+
+function multiply47(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet47(name = "Sam") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop47() {
+  let total = 0;
+  for (let i = 0; i < 18; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven47 = (n) => n % 2 === 0;
+
+function subtract48(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet48(name = "Casey") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop48() {
+  let total = 0;
+  for (let i = 0; i < 12; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven48 = (n) => n % 2 === 0;
+
+function subtract49(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet49(name = "Sam") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop49() {
+  let total = 0;
+  for (let i = 0; i < 19; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven49 = (n) => n % 2 === 0;
+
+function add50(a, b) {
+  // 두 수를 add 연산으로 계산한다
+  return a + b;
+}
+
+function greet50(name = "도윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop50() {
+  let total = 0;
+  for (let i = 0; i < 15; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven50 = (n) => n % 2 === 0;
+
+function multiply51(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet51(name = "Riley") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop51() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven51 = (n) => n % 2 === 0;
+
+function multiply52(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet52(name = "Sam") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop52() {
+  let total = 0;
+  for (let i = 0; i < 14; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven52 = (n) => n % 2 === 0;
+
+function multiply53(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet53(name = "철수") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop53() {
+  let total = 0;
+  for (let i = 0; i < 11; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven53 = (n) => n % 2 === 0;
+
+function subtract54(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet54(name = "도윤") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop54() {
+  let total = 0;
+  for (let i = 0; i < 15; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven54 = (n) => n % 2 === 0;
+
+function multiply55(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet55(name = "Jordan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop55() {
+  let total = 0;
+  for (let i = 0; i < 16; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven55 = (n) => n % 2 === 0;
+
+function subtract56(a, b) {
+  // 두 수를 subtract 연산으로 계산한다
+  return a - b;
+}
+
+function greet56(name = "Morgan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop56() {
+  let total = 0;
+  for (let i = 0; i < 8; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven56 = (n) => n % 2 === 0;
+
+function multiply57(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet57(name = "Jamie") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop57() {
+  let total = 0;
+  for (let i = 0; i < 7; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven57 = (n) => n % 2 === 0;
+
+function multiply58(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet58(name = "민준") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop58() {
+  let total = 0;
+  for (let i = 0; i < 11; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven58 = (n) => n % 2 === 0;
+
+function multiply59(a, b) {
+  // 두 수를 multiply 연산으로 계산한다
+  return a * b;
+}
+
+function greet59(name = "Jordan") {
+  console.log(`안녕하세요, ${name}!`);
+  console.log(`Hello, ${name}!`);
+}
+
+function loop59() {
+  let total = 0;
+  for (let i = 0; i < 4; i++) {
+    total += i;
+  }
+  return total;
+}
+
+const isEven59 = (n) => n % 2 === 0;

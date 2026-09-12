@@ -1,0 +1,1259 @@
+public static int Add0(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet0(string name = "Sam")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop0()
+{
+    int total = 0;
+    for (int i = 0; i < 9; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add1(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet1(string name = "서연")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop1()
+{
+    int total = 0;
+    for (int i = 0; i < 2; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add2(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet2(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop2()
+{
+    int total = 0;
+    for (int i = 0; i < 17; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply3(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet3(string name = "민준")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop3()
+{
+    int total = 0;
+    for (int i = 0; i < 16; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract4(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet4(string name = "도윤")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop4()
+{
+    int total = 0;
+    for (int i = 0; i < 14; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract5(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet5(string name = "Riley")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop5()
+{
+    int total = 0;
+    for (int i = 0; i < 9; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add6(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet6(string name = "철수")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop6()
+{
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract7(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet7(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop7()
+{
+    int total = 0;
+    for (int i = 0; i < 7; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply8(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet8(string name = "Morgan")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop8()
+{
+    int total = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply9(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet9(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop9()
+{
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract10(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet10(string name = "서연")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop10()
+{
+    int total = 0;
+    for (int i = 0; i < 16; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply11(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet11(string name = "Jordan")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop11()
+{
+    int total = 0;
+    for (int i = 0; i < 16; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply12(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet12(string name = "Casey")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop12()
+{
+    int total = 0;
+    for (int i = 0; i < 19; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract13(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet13(string name = "하윤")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop13()
+{
+    int total = 0;
+    for (int i = 0; i < 17; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract14(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet14(string name = "Alex")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop14()
+{
+    int total = 0;
+    for (int i = 0; i < 9; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply15(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet15(string name = "Alex")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop15()
+{
+    int total = 0;
+    for (int i = 0; i < 18; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract16(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet16(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop16()
+{
+    int total = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract17(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet17(string name = "민준")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop17()
+{
+    int total = 0;
+    for (int i = 0; i < 11; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add18(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet18(string name = "Alex")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop18()
+{
+    int total = 0;
+    for (int i = 0; i < 12; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract19(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet19(string name = "민준")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop19()
+{
+    int total = 0;
+    for (int i = 0; i < 6; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add20(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet20(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop20()
+{
+    int total = 0;
+    for (int i = 0; i < 14; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply21(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet21(string name = "서연")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop21()
+{
+    int total = 0;
+    for (int i = 0; i < 8; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add22(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet22(string name = "Casey")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop22()
+{
+    int total = 0;
+    for (int i = 0; i < 15; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract23(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet23(string name = "Morgan")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop23()
+{
+    int total = 0;
+    for (int i = 0; i < 15; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add24(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet24(string name = "도윤")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop24()
+{
+    int total = 0;
+    for (int i = 0; i < 15; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract25(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet25(string name = "철수")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop25()
+{
+    int total = 0;
+    for (int i = 0; i < 20; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract26(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet26(string name = "Jamie")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop26()
+{
+    int total = 0;
+    for (int i = 0; i < 2; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract27(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet27(string name = "Sam")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop27()
+{
+    int total = 0;
+    for (int i = 0; i < 14; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract28(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet28(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop28()
+{
+    int total = 0;
+    for (int i = 0; i < 17; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add29(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet29(string name = "Alex")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop29()
+{
+    int total = 0;
+    for (int i = 0; i < 15; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract30(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet30(string name = "철수")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop30()
+{
+    int total = 0;
+    for (int i = 0; i < 14; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract31(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet31(string name = "Riley")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop31()
+{
+    int total = 0;
+    for (int i = 0; i < 7; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract32(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet32(string name = "서연")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop32()
+{
+    int total = 0;
+    for (int i = 0; i < 19; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add33(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet33(string name = "Riley")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop33()
+{
+    int total = 0;
+    for (int i = 0; i < 20; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply34(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet34(string name = "철수")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop34()
+{
+    int total = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply35(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet35(string name = "Casey")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop35()
+{
+    int total = 0;
+    for (int i = 0; i < 6; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract36(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet36(string name = "하윤")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop36()
+{
+    int total = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract37(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet37(string name = "Riley")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop37()
+{
+    int total = 0;
+    for (int i = 0; i < 12; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add38(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet38(string name = "Morgan")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop38()
+{
+    int total = 0;
+    for (int i = 0; i < 12; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract39(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet39(string name = "Riley")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop39()
+{
+    int total = 0;
+    for (int i = 0; i < 10; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract40(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet40(string name = "Alex")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop40()
+{
+    int total = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract41(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet41(string name = "철수")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop41()
+{
+    int total = 0;
+    for (int i = 0; i < 19; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add42(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet42(string name = "Taylor")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop42()
+{
+    int total = 0;
+    for (int i = 0; i < 9; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply43(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet43(string name = "민준")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop43()
+{
+    int total = 0;
+    for (int i = 0; i < 3; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add44(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet44(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop44()
+{
+    int total = 0;
+    for (int i = 0; i < 8; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add45(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet45(string name = "서연")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop45()
+{
+    int total = 0;
+    for (int i = 0; i < 9; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add46(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet46(string name = "Jamie")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop46()
+{
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply47(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet47(string name = "도윤")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop47()
+{
+    int total = 0;
+    for (int i = 0; i < 16; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply48(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet48(string name = "Alex")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop48()
+{
+    int total = 0;
+    for (int i = 0; i < 13; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add49(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet49(string name = "지훈")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop49()
+{
+    int total = 0;
+    for (int i = 0; i < 7; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract50(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet50(string name = "지훈")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop50()
+{
+    int total = 0;
+    for (int i = 0; i < 20; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add51(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet51(string name = "Sam")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop51()
+{
+    int total = 0;
+    for (int i = 0; i < 20; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply52(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet52(string name = "Riley")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop52()
+{
+    int total = 0;
+    for (int i = 0; i < 14; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply53(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet53(string name = "도윤")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop53()
+{
+    int total = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply54(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet54(string name = "예은")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop54()
+{
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply55(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet55(string name = "Sam")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop55()
+{
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply56(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet56(string name = "영희")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop56()
+{
+    int total = 0;
+    for (int i = 0; i < 13; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Multiply57(int a, int b)
+{
+    // 두 수를 Multiply 연산으로 계산한다
+    return a * b;
+}
+
+public static void Greet57(string name = "Casey")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop57()
+{
+    int total = 0;
+    for (int i = 0; i < 13; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Add58(int a, int b)
+{
+    // 두 수를 Add 연산으로 계산한다
+    return a + b;
+}
+
+public static void Greet58(string name = "Jordan")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop58()
+{
+    int total = 0;
+    for (int i = 0; i < 2; i++)
+    {
+        total += i;
+    }
+    return total;
+}
+
+public static int Subtract59(int a, int b)
+{
+    // 두 수를 Subtract 연산으로 계산한다
+    return a - b;
+}
+
+public static void Greet59(string name = "Jamie")
+{
+    Console.WriteLine($"안녕하세요, {name}!");
+}
+
+public static int Loop59()
+{
+    int total = 0;
+    for (int i = 0; i < 5; i++)
+    {
+        total += i;
+    }
+    return total;
+}

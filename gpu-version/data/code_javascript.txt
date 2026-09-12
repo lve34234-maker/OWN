@@ -1,0 +1,180 @@
+// JavaScript 예제 모음 / JavaScript example collection
+// 처음부터 학습시키는 작은 언어모델을 위해 직접 작성한 예제입니다.
+
+// 1. Hello world
+console.log("Hello, world!");
+console.log("안녕하세요, 세계!");
+
+// 2. 변수와 자료형 / variables and types
+let name = "Claude";
+const age = 3;
+let isReady = true;
+var score = 98.5;
+
+// 3. 함수 정의 / function definition
+function add(a, b) {
+  // 두 수를 더해서 반환한다
+  return a + b;
+}
+
+const greet = (name) => {
+  console.log(`안녕, ${name}!`);
+};
+
+// 4. 조건문 / conditionals
+function checkNumber(n) {
+  if (n > 0) {
+    return "양수";
+  } else if (n < 0) {
+    return "음수";
+  } else {
+    return "영";
+  }
+}
+
+// 5. 반복문 / loops
+function sumToN(n) {
+  let total = 0;
+  for (let i = 1; i <= n; i++) {
+    total += i;
+  }
+  return total;
+}
+
+function countdown(n) {
+  while (n > 0) {
+    console.log(n);
+    n--;
+  }
+  console.log("발사!");
+}
+
+// 6. 배열 / arrays
+const numbers = [1, 2, 3, 4, 5];
+const squares = numbers.map((x) => x * x);
+const evens = numbers.filter((x) => x % 2 === 0);
+const total = numbers.reduce((sum, x) => sum + x, 0);
+
+function findMax(items) {
+  let biggest = items[0];
+  for (const item of items) {
+    if (item > biggest) biggest = item;
+  }
+  return biggest;
+}
+
+// 7. 재귀 / recursion
+function factorial(n) {
+  if (n <= 1) return 1;
+  return n * factorial(n - 1);
+}
+
+function fibonacci(n) {
+  if (n <= 1) return n;
+  return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+// 8. 문자열 처리 / string handling
+function reverseString(s) {
+  return s.split("").reverse().join("");
+}
+
+function isPalindrome(s) {
+  const cleaned = s.replace(/\s/g, "").toLowerCase();
+  return cleaned === cleaned.split("").reverse().join("");
+}
+
+// 9. 클래스 / classes
+class Player {
+  constructor(name, hp = 100) {
+    this.name = name;
+    this.hp = hp;
+    this.level = 1;
+  }
+
+  takeDamage(amount) {
+    this.hp -= amount;
+    if (this.hp < 0) this.hp = 0;
+  }
+
+  isAlive() {
+    return this.hp > 0;
+  }
+
+  levelUp() {
+    this.level += 1;
+    this.hp += 10;
+  }
+}
+
+class Inventory {
+  constructor() {
+    this.items = [];
+  }
+  addItem(item) {
+    this.items.push(item);
+  }
+  removeItem(item) {
+    this.items = this.items.filter((i) => i !== item);
+  }
+}
+
+// 10. 객체 / objects
+const playerScores = { alice: 100, bob: 85, carol: 92 };
+
+function getTopPlayer(scores) {
+  return Object.keys(scores).reduce((a, b) => (scores[a] > scores[b] ? a : b));
+}
+
+// 11. 비동기 처리 / async handling
+async function fetchData(url) {
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    return data;
+  } catch (err) {
+    console.log("에러 발생:", err.message);
+    return null;
+  }
+}
+
+// 12. 간단한 캔버스 게임 루프 / simple canvas game loop
+function gameLoop(ctx, player) {
+  ctx.clearRect(0, 0, 800, 600);
+  ctx.fillRect(player.x, player.y, 32, 32);
+  requestAnimationFrame(() => gameLoop(ctx, player));
+}
+
+function movePlayer(player, dx, dy) {
+  player.x += dx;
+  player.y += dy;
+}
+
+// 13. 정렬 알고리즘 / sorting
+function bubbleSort(arr) {
+  const n = arr.length;
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n - i - 1; j++) {
+      if (arr[j] > arr[j + 1]) {
+        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+      }
+    }
+  }
+  return arr;
+}
+
+// 14. 소수 판별 / prime check
+function isPrime(n) {
+  if (n < 2) return false;
+  for (let i = 2; i * i <= n; i++) {
+    if (n % i === 0) return false;
+  }
+  return true;
+}
+
+// 15. 이벤트 리스너 / event listener
+document.addEventListener("keydown", (event) => {
+  if (event.key === "ArrowUp") {
+    console.log("위로 이동");
+  }
+});

@@ -1,0 +1,188 @@
+-- Lua 예제 모음 / Lua example collection
+-- 처음부터 학습시키는 작은 언어모델을 위해 직접 작성한 예제입니다.
+
+-- 1. Hello world
+print("Hello, world!")
+print("안녕하세요, 세계!")
+
+-- 2. 변수와 자료형 / variables and types
+local name = "Claude"
+local age = 3
+local isReady = true
+local score = 98.5
+
+-- 3. 함수 정의 / function definition
+local function add(a, b)
+    -- 두 수를 더해서 반환한다
+    return a + b
+end
+
+local function greet(name)
+    print("안녕, " .. name .. "!")
+end
+
+-- 4. 조건문 / conditionals
+local function checkNumber(n)
+    if n > 0 then
+        return "양수"
+    elseif n < 0 then
+        return "음수"
+    else
+        return "영"
+    end
+end
+
+-- 5. 반복문 / loops
+local function sumToN(n)
+    local total = 0
+    for i = 1, n do
+        total = total + i
+    end
+    return total
+end
+
+local function countdown(n)
+    while n > 0 do
+        print(n)
+        n = n - 1
+    end
+    print("발사!")
+end
+
+-- 6. 테이블 / tables (Lua의 배열/딕셔너리 역할)
+local numbers = {1, 2, 3, 4, 5}
+
+local function findMax(items)
+    local biggest = items[1]
+    for _, item in ipairs(items) do
+        if item > biggest then
+            biggest = item
+        end
+    end
+    return biggest
+end
+
+local playerScores = {alice = 100, bob = 85, carol = 92}
+
+local function getTopPlayer(scores)
+    local top, best = nil, -1
+    for name, value in pairs(scores) do
+        if value > best then
+            best = value
+            top = name
+        end
+    end
+    return top
+end
+
+-- 7. 재귀 / recursion
+local function factorial(n)
+    if n <= 1 then
+        return 1
+    end
+    return n * factorial(n - 1)
+end
+
+local function fibonacci(n)
+    if n <= 1 then
+        return n
+    end
+    return fibonacci(n - 1) + fibonacci(n - 2)
+end
+
+-- 8. 문자열 처리 / string handling
+local function reverseString(s)
+    return s:reverse()
+end
+
+local function isPalindrome(s)
+    local cleaned = s:gsub("%s+", ""):lower()
+    return cleaned == cleaned:reverse()
+end
+
+-- 9. 테이블 기반 "클래스" / table-based "class" pattern
+local Player = {}
+Player.__index = Player
+
+function Player.new(name, hp)
+    local self = setmetatable({}, Player)
+    self.name = name
+    self.hp = hp or 100
+    self.level = 1
+    return self
+end
+
+function Player:takeDamage(amount)
+    self.hp = self.hp - amount
+    if self.hp < 0 then
+        self.hp = 0
+    end
+end
+
+function Player:isAlive()
+    return self.hp > 0
+end
+
+function Player:levelUp()
+    self.level = self.level + 1
+    self.hp = self.hp + 10
+end
+
+-- 10. 게임 루프 스타일 스크립트 / game-loop style script
+-- (LOVE2D 같은 엔진에서 흔히 쓰는 구조)
+local player = { x = 100, y = 100, speed = 200 }
+
+function love_update(dt)
+    if key_down("left") then
+        player.x = player.x - player.speed * dt
+    end
+    if key_down("right") then
+        player.x = player.x + player.speed * dt
+    end
+end
+
+function love_draw()
+    draw_rect(player.x, player.y, 32, 32)
+end
+
+-- 11. 정렬 알고리즘 / sorting
+local function bubbleSort(arr)
+    local n = #arr
+    for i = 1, n do
+        for j = 1, n - i do
+            if arr[j] > arr[j + 1] then
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+            end
+        end
+    end
+    return arr
+end
+
+-- 12. 소수 판별 / prime check
+local function isPrime(n)
+    if n < 2 then
+        return false
+    end
+    for i = 2, math.floor(math.sqrt(n)) do
+        if n % i == 0 then
+            return false
+        end
+    end
+    return true
+end
+
+-- 13. 에러 처리 / error handling
+local function safeDivide(a, b)
+    local ok, result = pcall(function()
+        if b == 0 then
+            error("0으로 나눌 수 없습니다")
+        end
+        return a / b
+    end)
+    if ok then
+        return result
+    else
+        print(result)
+        return nil
+    end
+end

@@ -1,0 +1,162 @@
+<!-- HTML 예제 모음 / HTML example collection -->
+<!-- 처음부터 학습시키는 작은 언어모델을 위해 직접 작성한 예제입니다. -->
+
+<!-- 1. 기본 문서 구조 / basic document structure -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>안녕하세요</title>
+</head>
+<body>
+    <h1>Hello, world!</h1>
+    <p>안녕하세요, 세계!</p>
+</body>
+</html>
+
+<!-- 2. 버튼과 이벤트 / button and event -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>버튼 예제</title>
+</head>
+<body>
+    <button id="myButton">클릭하세요</button>
+    <p id="output"></p>
+    <script>
+        const button = document.getElementById("myButton");
+        const output = document.getElementById("output");
+        button.addEventListener("click", () => {
+            output.textContent = "버튼이 클릭되었습니다!";
+        });
+    </script>
+</body>
+</html>
+
+<!-- 3. 폼 예제 / form example -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>폼 예제</title>
+</head>
+<body>
+    <form id="loginForm">
+        <label for="username">이름:</label>
+        <input type="text" id="username" name="username">
+        <label for="password">비밀번호:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">로그인</button>
+    </form>
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", (e) => {
+            e.preventDefault();
+            console.log("폼이 제출되었습니다");
+        });
+    </script>
+</body>
+</html>
+
+<!-- 4. 목록과 표 / lists and tables -->
+<ul>
+    <li>사과</li>
+    <li>바나나</li>
+    <li>딸기</li>
+</ul>
+
+<table>
+    <thead>
+        <tr>
+            <th>이름</th>
+            <th>점수</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>alice</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>bob</td>
+            <td>85</td>
+        </tr>
+    </tbody>
+</table>
+
+<!-- 5. 간단한 캔버스 게임 뼈대 / simple canvas game skeleton -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>캔버스 게임</title>
+    <style>
+        canvas { background: #222; display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <canvas id="gameCanvas" width="800" height="600"></canvas>
+    <script>
+        const canvas = document.getElementById("gameCanvas");
+        const ctx = canvas.getContext("2d");
+        const player = { x: 400, y: 300, size: 32, speed: 5 };
+
+        function update() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = "lime";
+            ctx.fillRect(player.x, player.y, player.size, player.size);
+            requestAnimationFrame(update);
+        }
+
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "ArrowLeft") player.x -= player.speed;
+            if (e.key === "ArrowRight") player.x += player.speed;
+            if (e.key === "ArrowUp") player.y -= player.speed;
+            if (e.key === "ArrowDown") player.y += player.speed;
+        });
+
+        update();
+    </script>
+</body>
+</html>
+
+<!-- 6. CSS 스타일링 / CSS styling -->
+<style>
+    body {
+        font-family: sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 20px;
+    }
+    .card {
+        background: white;
+        border-radius: 8px;
+        padding: 16px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+</style>
+
+<!-- 7. 시맨틱 태그 / semantic tags -->
+<header>
+    <nav>
+        <a href="#home">홈</a>
+        <a href="#about">소개</a>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>환영합니다</h2>
+        <p>이 페이지는 예제입니다.</p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2026 예제 회사</p>
+</footer>

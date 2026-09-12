@@ -1,0 +1,1019 @@
+def multiply_0(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_0(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_0():
+    total = 0
+    for i in range(9):
+        total += i
+    return total
+
+def is_even_0(n):
+    return n % 2 == 0
+
+def add_1(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_1(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_1():
+    total = 0
+    for i in range(20):
+        total += i
+    return total
+
+def is_even_1(n):
+    return n % 2 == 0
+
+def subtract_2(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_2(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_2():
+    total = 0
+    for i in range(8):
+        total += i
+    return total
+
+def is_even_2(n):
+    return n % 2 == 0
+
+def add_3(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_3(name="도윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_3():
+    total = 0
+    for i in range(19):
+        total += i
+    return total
+
+def is_even_3(n):
+    return n % 2 == 0
+
+def subtract_4(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_4(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_4():
+    total = 0
+    for i in range(2):
+        total += i
+    return total
+
+def is_even_4(n):
+    return n % 2 == 0
+
+def add_5(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_5(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_5():
+    total = 0
+    for i in range(6):
+        total += i
+    return total
+
+def is_even_5(n):
+    return n % 2 == 0
+
+def add_6(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_6(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_6():
+    total = 0
+    for i in range(14):
+        total += i
+    return total
+
+def is_even_6(n):
+    return n % 2 == 0
+
+def add_7(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_7(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_7():
+    total = 0
+    for i in range(3):
+        total += i
+    return total
+
+def is_even_7(n):
+    return n % 2 == 0
+
+def multiply_8(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_8(name="지훈"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_8():
+    total = 0
+    for i in range(14):
+        total += i
+    return total
+
+def is_even_8(n):
+    return n % 2 == 0
+
+def add_9(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_9(name="Taylor"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_9():
+    total = 0
+    for i in range(20):
+        total += i
+    return total
+
+def is_even_9(n):
+    return n % 2 == 0
+
+def add_10(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_10(name="예은"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_10():
+    total = 0
+    for i in range(11):
+        total += i
+    return total
+
+def is_even_10(n):
+    return n % 2 == 0
+
+def add_11(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_11(name="Riley"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_11():
+    total = 0
+    for i in range(10):
+        total += i
+    return total
+
+def is_even_11(n):
+    return n % 2 == 0
+
+def subtract_12(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_12(name="Taylor"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_12():
+    total = 0
+    for i in range(13):
+        total += i
+    return total
+
+def is_even_12(n):
+    return n % 2 == 0
+
+def add_13(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_13(name="하윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_13():
+    total = 0
+    for i in range(19):
+        total += i
+    return total
+
+def is_even_13(n):
+    return n % 2 == 0
+
+def multiply_14(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_14(name="Morgan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_14():
+    total = 0
+    for i in range(14):
+        total += i
+    return total
+
+def is_even_14(n):
+    return n % 2 == 0
+
+def subtract_15(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_15(name="Jordan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_15():
+    total = 0
+    for i in range(3):
+        total += i
+    return total
+
+def is_even_15(n):
+    return n % 2 == 0
+
+def add_16(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_16(name="Riley"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_16():
+    total = 0
+    for i in range(10):
+        total += i
+    return total
+
+def is_even_16(n):
+    return n % 2 == 0
+
+def add_17(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_17(name="Jordan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_17():
+    total = 0
+    for i in range(8):
+        total += i
+    return total
+
+def is_even_17(n):
+    return n % 2 == 0
+
+def multiply_18(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_18(name="Morgan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_18():
+    total = 0
+    for i in range(6):
+        total += i
+    return total
+
+def is_even_18(n):
+    return n % 2 == 0
+
+def subtract_19(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_19(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_19():
+    total = 0
+    for i in range(20):
+        total += i
+    return total
+
+def is_even_19(n):
+    return n % 2 == 0
+
+def subtract_20(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_20(name="Taylor"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_20():
+    total = 0
+    for i in range(9):
+        total += i
+    return total
+
+def is_even_20(n):
+    return n % 2 == 0
+
+def add_21(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_21(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_21():
+    total = 0
+    for i in range(3):
+        total += i
+    return total
+
+def is_even_21(n):
+    return n % 2 == 0
+
+def add_22(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_22(name="Casey"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_22():
+    total = 0
+    for i in range(4):
+        total += i
+    return total
+
+def is_even_22(n):
+    return n % 2 == 0
+
+def subtract_23(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_23(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_23():
+    total = 0
+    for i in range(19):
+        total += i
+    return total
+
+def is_even_23(n):
+    return n % 2 == 0
+
+def add_24(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_24(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_24():
+    total = 0
+    for i in range(12):
+        total += i
+    return total
+
+def is_even_24(n):
+    return n % 2 == 0
+
+def add_25(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_25(name="하윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_25():
+    total = 0
+    for i in range(16):
+        total += i
+    return total
+
+def is_even_25(n):
+    return n % 2 == 0
+
+def add_26(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_26(name="하윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_26():
+    total = 0
+    for i in range(18):
+        total += i
+    return total
+
+def is_even_26(n):
+    return n % 2 == 0
+
+def add_27(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_27(name="도윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_27():
+    total = 0
+    for i in range(6):
+        total += i
+    return total
+
+def is_even_27(n):
+    return n % 2 == 0
+
+def subtract_28(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_28(name="철수"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_28():
+    total = 0
+    for i in range(12):
+        total += i
+    return total
+
+def is_even_28(n):
+    return n % 2 == 0
+
+def subtract_29(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_29(name="Taylor"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_29():
+    total = 0
+    for i in range(11):
+        total += i
+    return total
+
+def is_even_29(n):
+    return n % 2 == 0
+
+def add_30(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_30(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_30():
+    total = 0
+    for i in range(4):
+        total += i
+    return total
+
+def is_even_30(n):
+    return n % 2 == 0
+
+def multiply_31(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_31(name="서연"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_31():
+    total = 0
+    for i in range(6):
+        total += i
+    return total
+
+def is_even_31(n):
+    return n % 2 == 0
+
+def multiply_32(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_32(name="하윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_32():
+    total = 0
+    for i in range(10):
+        total += i
+    return total
+
+def is_even_32(n):
+    return n % 2 == 0
+
+def multiply_33(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_33(name="도윤"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_33():
+    total = 0
+    for i in range(11):
+        total += i
+    return total
+
+def is_even_33(n):
+    return n % 2 == 0
+
+def subtract_34(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_34(name="Morgan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_34():
+    total = 0
+    for i in range(5):
+        total += i
+    return total
+
+def is_even_34(n):
+    return n % 2 == 0
+
+def add_35(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_35(name="Jordan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_35():
+    total = 0
+    for i in range(2):
+        total += i
+    return total
+
+def is_even_35(n):
+    return n % 2 == 0
+
+def multiply_36(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_36(name="예은"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_36():
+    total = 0
+    for i in range(2):
+        total += i
+    return total
+
+def is_even_36(n):
+    return n % 2 == 0
+
+def add_37(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_37(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_37():
+    total = 0
+    for i in range(3):
+        total += i
+    return total
+
+def is_even_37(n):
+    return n % 2 == 0
+
+def subtract_38(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_38(name="예은"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_38():
+    total = 0
+    for i in range(10):
+        total += i
+    return total
+
+def is_even_38(n):
+    return n % 2 == 0
+
+def multiply_39(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_39(name="서연"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_39():
+    total = 0
+    for i in range(20):
+        total += i
+    return total
+
+def is_even_39(n):
+    return n % 2 == 0
+
+def multiply_40(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_40(name="Jamie"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_40():
+    total = 0
+    for i in range(15):
+        total += i
+    return total
+
+def is_even_40(n):
+    return n % 2 == 0
+
+def add_41(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_41(name="Casey"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_41():
+    total = 0
+    for i in range(13):
+        total += i
+    return total
+
+def is_even_41(n):
+    return n % 2 == 0
+
+def subtract_42(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_42(name="영희"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_42():
+    total = 0
+    for i in range(5):
+        total += i
+    return total
+
+def is_even_42(n):
+    return n % 2 == 0
+
+def add_43(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_43(name="지훈"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_43():
+    total = 0
+    for i in range(9):
+        total += i
+    return total
+
+def is_even_43(n):
+    return n % 2 == 0
+
+def add_44(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_44(name="Morgan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_44():
+    total = 0
+    for i in range(6):
+        total += i
+    return total
+
+def is_even_44(n):
+    return n % 2 == 0
+
+def subtract_45(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_45(name="Morgan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_45():
+    total = 0
+    for i in range(9):
+        total += i
+    return total
+
+def is_even_45(n):
+    return n % 2 == 0
+
+def add_46(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_46(name="지훈"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_46():
+    total = 0
+    for i in range(3):
+        total += i
+    return total
+
+def is_even_46(n):
+    return n % 2 == 0
+
+def multiply_47(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_47(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_47():
+    total = 0
+    for i in range(9):
+        total += i
+    return total
+
+def is_even_47(n):
+    return n % 2 == 0
+
+def add_48(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_48(name="Jamie"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_48():
+    total = 0
+    for i in range(8):
+        total += i
+    return total
+
+def is_even_48(n):
+    return n % 2 == 0
+
+def subtract_49(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_49(name="Riley"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_49():
+    total = 0
+    for i in range(2):
+        total += i
+    return total
+
+def is_even_49(n):
+    return n % 2 == 0
+
+def subtract_50(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_50(name="Sam"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_50():
+    total = 0
+    for i in range(15):
+        total += i
+    return total
+
+def is_even_50(n):
+    return n % 2 == 0
+
+def multiply_51(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_51(name="서연"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_51():
+    total = 0
+    for i in range(8):
+        total += i
+    return total
+
+def is_even_51(n):
+    return n % 2 == 0
+
+def subtract_52(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_52(name="영희"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_52():
+    total = 0
+    for i in range(12):
+        total += i
+    return total
+
+def is_even_52(n):
+    return n % 2 == 0
+
+def add_53(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_53(name="Jamie"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_53():
+    total = 0
+    for i in range(18):
+        total += i
+    return total
+
+def is_even_53(n):
+    return n % 2 == 0
+
+def multiply_54(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_54(name="민준"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_54():
+    total = 0
+    for i in range(7):
+        total += i
+    return total
+
+def is_even_54(n):
+    return n % 2 == 0
+
+def add_55(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_55(name="Riley"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_55():
+    total = 0
+    for i in range(5):
+        total += i
+    return total
+
+def is_even_55(n):
+    return n % 2 == 0
+
+def multiply_56(a, b):
+    """두 수를 multiply 연산으로 계산한다."""
+    return a * b
+
+def greet_56(name="영희"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_56():
+    total = 0
+    for i in range(4):
+        total += i
+    return total
+
+def is_even_56(n):
+    return n % 2 == 0
+
+def subtract_57(a, b):
+    """두 수를 subtract 연산으로 계산한다."""
+    return a - b
+
+def greet_57(name="Jordan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_57():
+    total = 0
+    for i in range(10):
+        total += i
+    return total
+
+def is_even_57(n):
+    return n % 2 == 0
+
+def add_58(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_58(name="Alex"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_58():
+    total = 0
+    for i in range(14):
+        total += i
+    return total
+
+def is_even_58(n):
+    return n % 2 == 0
+
+def add_59(a, b):
+    """두 수를 add 연산으로 계산한다."""
+    return a + b
+
+def greet_59(name="Jordan"):
+    print(f"안녕하세요, {name}!")
+    print(f"Hello, {name}!")
+
+def loop_59():
+    total = 0
+    for i in range(4):
+        total += i
+    return total
+
+def is_even_59(n):
+    return n % 2 == 0

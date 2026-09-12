@@ -1,0 +1,276 @@
+// C# 예제 모음 / C# example collection
+// 처음부터 학습시키는 작은 언어모델을 위해 직접 작성한 예제입니다.
+
+using System;
+using System.Collections.Generic;
+
+// 1. Hello world
+class HelloWorld
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, world!");
+        Console.WriteLine("안녕하세요, 세계!");
+    }
+}
+
+// 2. 변수와 자료형 / variables and types
+class Variables
+{
+    string name = "Claude";
+    int age = 3;
+    bool isReady = true;
+    double score = 98.5;
+}
+
+// 3. 함수 정의 / method definition
+class MathHelper
+{
+    // 두 수를 더해서 반환한다
+    public static int Add(int a, int b)
+    {
+        return a + b;
+    }
+
+    public static void Greet(string name)
+    {
+        Console.WriteLine($"안녕, {name}!");
+    }
+}
+
+// 4. 조건문 / conditionals
+class NumberChecker
+{
+    public static string CheckNumber(int n)
+    {
+        if (n > 0) return "양수";
+        else if (n < 0) return "음수";
+        else return "영";
+    }
+}
+
+// 5. 반복문 / loops
+class Loops
+{
+    public static int SumToN(int n)
+    {
+        int total = 0;
+        for (int i = 1; i <= n; i++)
+        {
+            total += i;
+        }
+        return total;
+    }
+
+    public static void Countdown(int n)
+    {
+        while (n > 0)
+        {
+            Console.WriteLine(n);
+            n--;
+        }
+        Console.WriteLine("발사!");
+    }
+}
+
+// 6. 리스트 / lists
+class ListExamples
+{
+    public static List<int> Squares(List<int> numbers)
+    {
+        var result = new List<int>();
+        foreach (var x in numbers)
+        {
+            result.Add(x * x);
+        }
+        return result;
+    }
+
+    public static int FindMax(List<int> items)
+    {
+        int biggest = items[0];
+        foreach (var item in items)
+        {
+            if (item > biggest) biggest = item;
+        }
+        return biggest;
+    }
+}
+
+// 7. 재귀 / recursion
+class Recursion
+{
+    public static int Factorial(int n)
+    {
+        if (n <= 1) return 1;
+        return n * Factorial(n - 1);
+    }
+
+    public static int Fibonacci(int n)
+    {
+        if (n <= 1) return n;
+        return Fibonacci(n - 1) + Fibonacci(n - 2);
+    }
+}
+
+// 8. 문자열 처리 / string handling
+class StringHelper
+{
+    public static string ReverseString(string s)
+    {
+        char[] arr = s.ToCharArray();
+        Array.Reverse(arr);
+        return new string(arr);
+    }
+
+    public static bool IsPalindrome(string s)
+    {
+        string cleaned = s.Replace(" ", "").ToLower();
+        string reversed = ReverseString(cleaned);
+        return cleaned == reversed;
+    }
+}
+
+// 9. 클래스와 상속 / classes and inheritance
+class Player
+{
+    public string Name;
+    public int Hp;
+    public int Level;
+
+    public Player(string name, int hp = 100)
+    {
+        Name = name;
+        Hp = hp;
+        Level = 1;
+    }
+
+    public void TakeDamage(int amount)
+    {
+        Hp -= amount;
+        if (Hp < 0) Hp = 0;
+    }
+
+    public bool IsAlive()
+    {
+        return Hp > 0;
+    }
+
+    public virtual void LevelUp()
+    {
+        Level += 1;
+        Hp += 10;
+    }
+}
+
+class Boss : Player
+{
+    public int Phase = 1;
+
+    public Boss(string name, int hp) : base(name, hp) { }
+
+    public override void LevelUp()
+    {
+        base.LevelUp();
+        Phase += 1;
+    }
+}
+
+// 10. 유니티 스타일 스크립트 / Unity-style script (게임 오브젝트 이동)
+// Unity를 쓸 때는 MonoBehaviour를 상속받아 Update() 안에서 매 프레임 로직을 처리한다.
+class PlayerController // : MonoBehaviour
+{
+    public float speed = 5f;
+    public float x = 0f;
+    public float y = 0f;
+
+    // Update()는 매 프레임 호출된다고 가정
+    public void Update(float horizontalInput, float verticalInput, float deltaTime)
+    {
+        x += horizontalInput * speed * deltaTime;
+        y += verticalInput * speed * deltaTime;
+    }
+}
+
+// 11. 인터페이스 / interfaces
+interface IDamageable
+{
+    void TakeDamage(int amount);
+    bool IsAlive();
+}
+
+// 12. 딕셔너리 / dictionaries
+class ScoreBoard
+{
+    public static Dictionary<string, int> Scores = new Dictionary<string, int>
+    {
+        { "alice", 100 },
+        { "bob", 85 },
+        { "carol", 92 }
+    };
+
+    public static string GetTopPlayer()
+    {
+        string top = null;
+        int best = int.MinValue;
+        foreach (var pair in Scores)
+        {
+            if (pair.Value > best)
+            {
+                best = pair.Value;
+                top = pair.Key;
+            }
+        }
+        return top;
+    }
+}
+
+// 13. 예외 처리 / exception handling
+class SafeMath
+{
+    public static double? SafeDivide(double a, double b)
+    {
+        try
+        {
+            if (b == 0) throw new DivideByZeroException();
+            return a / b;
+        }
+        catch (DivideByZeroException)
+        {
+            Console.WriteLine("0으로 나눌 수 없습니다");
+            return null;
+        }
+    }
+}
+
+// 14. 정렬 알고리즘 / sorting
+class SortHelper
+{
+    public static int[] BubbleSort(int[] arr)
+    {
+        int n = arr.Length;
+        for (int i = 0; i < n; i++)
+        {
+            for (int j = 0; j < n - i - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+        return arr;
+    }
+
+    public static bool IsPrime(int n)
+    {
+        if (n < 2) return false;
+        for (int i = 2; i * i <= n; i++)
+        {
+            if (n % i == 0) return false;
+        }
+        return true;
+    }
+}

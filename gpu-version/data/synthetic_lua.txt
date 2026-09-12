@@ -1,0 +1,1079 @@
+local function multiply0(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet0(name)
+    name = name or "도윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop0()
+    local total = 0
+    for i = 1, 12 do
+        total = total + i
+    end
+    return total
+end
+
+local function add1(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet1(name)
+    name = name or "하윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop1()
+    local total = 0
+    for i = 1, 8 do
+        total = total + i
+    end
+    return total
+end
+
+local function add2(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet2(name)
+    name = name or "Jamie"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop2()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply3(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet3(name)
+    name = name or "Sam"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop3()
+    local total = 0
+    for i = 1, 5 do
+        total = total + i
+    end
+    return total
+end
+
+local function add4(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet4(name)
+    name = name or "Sam"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop4()
+    local total = 0
+    for i = 1, 9 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract5(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet5(name)
+    name = name or "하윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop5()
+    local total = 0
+    for i = 1, 11 do
+        total = total + i
+    end
+    return total
+end
+
+local function add6(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet6(name)
+    name = name or "서연"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop6()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function add7(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet7(name)
+    name = name or "영희"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop7()
+    local total = 0
+    for i = 1, 19 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract8(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet8(name)
+    name = name or "서연"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop8()
+    local total = 0
+    for i = 1, 17 do
+        total = total + i
+    end
+    return total
+end
+
+local function add9(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet9(name)
+    name = name or "철수"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop9()
+    local total = 0
+    for i = 1, 20 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract10(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet10(name)
+    name = name or "Jamie"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop10()
+    local total = 0
+    for i = 1, 17 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract11(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet11(name)
+    name = name or "Jordan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop11()
+    local total = 0
+    for i = 1, 7 do
+        total = total + i
+    end
+    return total
+end
+
+local function add12(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet12(name)
+    name = name or "Alex"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop12()
+    local total = 0
+    for i = 1, 17 do
+        total = total + i
+    end
+    return total
+end
+
+local function add13(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet13(name)
+    name = name or "민준"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop13()
+    local total = 0
+    for i = 1, 14 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract14(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet14(name)
+    name = name or "민준"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop14()
+    local total = 0
+    for i = 1, 20 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply15(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet15(name)
+    name = name or "영희"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop15()
+    local total = 0
+    for i = 1, 6 do
+        total = total + i
+    end
+    return total
+end
+
+local function add16(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet16(name)
+    name = name or "Sam"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop16()
+    local total = 0
+    for i = 1, 4 do
+        total = total + i
+    end
+    return total
+end
+
+local function add17(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet17(name)
+    name = name or "지훈"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop17()
+    local total = 0
+    for i = 1, 19 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract18(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet18(name)
+    name = name or "예은"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop18()
+    local total = 0
+    for i = 1, 18 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract19(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet19(name)
+    name = name or "Morgan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop19()
+    local total = 0
+    for i = 1, 16 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract20(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet20(name)
+    name = name or "Casey"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop20()
+    local total = 0
+    for i = 1, 11 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply21(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet21(name)
+    name = name or "영희"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop21()
+    local total = 0
+    for i = 1, 5 do
+        total = total + i
+    end
+    return total
+end
+
+local function add22(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet22(name)
+    name = name or "도윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop22()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply23(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet23(name)
+    name = name or "민준"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop23()
+    local total = 0
+    for i = 1, 7 do
+        total = total + i
+    end
+    return total
+end
+
+local function add24(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet24(name)
+    name = name or "하윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop24()
+    local total = 0
+    for i = 1, 19 do
+        total = total + i
+    end
+    return total
+end
+
+local function add25(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet25(name)
+    name = name or "하윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop25()
+    local total = 0
+    for i = 1, 2 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract26(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet26(name)
+    name = name or "Morgan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop26()
+    local total = 0
+    for i = 1, 17 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract27(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet27(name)
+    name = name or "영희"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop27()
+    local total = 0
+    for i = 1, 9 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract28(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet28(name)
+    name = name or "Sam"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop28()
+    local total = 0
+    for i = 1, 16 do
+        total = total + i
+    end
+    return total
+end
+
+local function add29(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet29(name)
+    name = name or "예은"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop29()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply30(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet30(name)
+    name = name or "도윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop30()
+    local total = 0
+    for i = 1, 15 do
+        total = total + i
+    end
+    return total
+end
+
+local function add31(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet31(name)
+    name = name or "예은"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop31()
+    local total = 0
+    for i = 1, 6 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract32(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet32(name)
+    name = name or "서연"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop32()
+    local total = 0
+    for i = 1, 4 do
+        total = total + i
+    end
+    return total
+end
+
+local function add33(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet33(name)
+    name = name or "하윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop33()
+    local total = 0
+    for i = 1, 11 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply34(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet34(name)
+    name = name or "Sam"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop34()
+    local total = 0
+    for i = 1, 16 do
+        total = total + i
+    end
+    return total
+end
+
+local function add35(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet35(name)
+    name = name or "Morgan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop35()
+    local total = 0
+    for i = 1, 11 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply36(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet36(name)
+    name = name or "Riley"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop36()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply37(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet37(name)
+    name = name or "Jamie"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop37()
+    local total = 0
+    for i = 1, 16 do
+        total = total + i
+    end
+    return total
+end
+
+local function add38(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet38(name)
+    name = name or "영희"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop38()
+    local total = 0
+    for i = 1, 15 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply39(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet39(name)
+    name = name or "Jordan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop39()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function add40(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet40(name)
+    name = name or "민준"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop40()
+    local total = 0
+    for i = 1, 9 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply41(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet41(name)
+    name = name or "철수"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop41()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply42(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet42(name)
+    name = name or "영희"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop42()
+    local total = 0
+    for i = 1, 7 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract43(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet43(name)
+    name = name or "Morgan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop43()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function add44(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet44(name)
+    name = name or "Casey"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop44()
+    local total = 0
+    for i = 1, 17 do
+        total = total + i
+    end
+    return total
+end
+
+local function add45(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet45(name)
+    name = name or "Jamie"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop45()
+    local total = 0
+    for i = 1, 13 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract46(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet46(name)
+    name = name or "Jordan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop46()
+    local total = 0
+    for i = 1, 12 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply47(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet47(name)
+    name = name or "지훈"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop47()
+    local total = 0
+    for i = 1, 7 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract48(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet48(name)
+    name = name or "Casey"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop48()
+    local total = 0
+    for i = 1, 17 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract49(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet49(name)
+    name = name or "Riley"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop49()
+    local total = 0
+    for i = 1, 19 do
+        total = total + i
+    end
+    return total
+end
+
+local function add50(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet50(name)
+    name = name or "Morgan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop50()
+    local total = 0
+    for i = 1, 4 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract51(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet51(name)
+    name = name or "Alex"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop51()
+    local total = 0
+    for i = 1, 12 do
+        total = total + i
+    end
+    return total
+end
+
+local function add52(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet52(name)
+    name = name or "Riley"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop52()
+    local total = 0
+    for i = 1, 18 do
+        total = total + i
+    end
+    return total
+end
+
+local function add53(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet53(name)
+    name = name or "Morgan"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop53()
+    local total = 0
+    for i = 1, 15 do
+        total = total + i
+    end
+    return total
+end
+
+local function add54(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet54(name)
+    name = name or "도윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop54()
+    local total = 0
+    for i = 1, 18 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract55(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet55(name)
+    name = name or "Jamie"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop55()
+    local total = 0
+    for i = 1, 16 do
+        total = total + i
+    end
+    return total
+end
+
+local function add56(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet56(name)
+    name = name or "도윤"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop56()
+    local total = 0
+    for i = 1, 10 do
+        total = total + i
+    end
+    return total
+end
+
+local function multiply57(a, b)
+    -- 두 수를 multiply 연산으로 계산한다
+    return a * b
+end
+
+local function greet57(name)
+    name = name or "서연"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop57()
+    local total = 0
+    for i = 1, 11 do
+        total = total + i
+    end
+    return total
+end
+
+local function subtract58(a, b)
+    -- 두 수를 subtract 연산으로 계산한다
+    return a - b
+end
+
+local function greet58(name)
+    name = name or "Jamie"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop58()
+    local total = 0
+    for i = 1, 5 do
+        total = total + i
+    end
+    return total
+end
+
+local function add59(a, b)
+    -- 두 수를 add 연산으로 계산한다
+    return a + b
+end
+
+local function greet59(name)
+    name = name or "예은"
+    print("안녕하세요, " .. name .. "!")
+end
+
+local function loop59()
+    local total = 0
+    for i = 1, 7 do
+        total = total + i
+    end
+    return total
+end

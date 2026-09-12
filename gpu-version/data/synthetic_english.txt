@@ -1,0 +1,185 @@
+Sam did 산책 today.
+Riley is learning about 게임 개발.
+Today's goal is to practice drawing.
+Question: What does Alex like the most?
+Answer: Alex likes 파이썬 the most.
+Today's goal is to practice game development.
+Casey did 요리 today.
+Question: What does Sam like the most?
+Answer: Sam likes 게임 개발 the most.
+Alex is learning about drawing.
+Jamie is learning about 파이썬.
+Alex did 산책 today.
+Morgan is learning about Python.
+Riley is learning about 파이썬.
+Morgan is learning about drawing.
+Sam did exercise today.
+Jordan is learning about game development.
+Casey did 요리 today.
+Sam is learning about JavaScript.
+Alex did reading today.
+Morgan did coding today.
+Casey did 독서 today.
+Sam is learning about JavaScript.
+Alex is learning about JavaScript.
+Jamie is learning about 게임 개발.
+Sam is learning about 파이썬.
+Question: What does Taylor like the most?
+Answer: Taylor likes 그림 그리기 the most.
+Casey did 산책 today.
+Today's goal is to practice 그림 그리기.
+Question: What does Casey like the most?
+Answer: Casey likes JavaScript the most.
+Question: What does Sam like the most?
+Answer: Sam likes game development the most.
+Today's goal is to practice JavaScript.
+Jamie is learning about JavaScript.
+Question: What does Sam like the most?
+Answer: Sam likes 자바스크립트 the most.
+Today's goal is to practice Python.
+Question: What does Sam like the most?
+Answer: Sam likes JavaScript the most.
+Question: What does Riley like the most?
+Answer: Riley likes game development the most.
+Jamie is learning about drawing.
+Casey did a walk today.
+Question: What does Alex like the most?
+Answer: Alex likes game development the most.
+Question: What does Jordan like the most?
+Answer: Jordan likes 게임 개발 the most.
+Today's goal is to practice 자바스크립트.
+Casey is learning about game development.
+Jordan did exercise today.
+Question: What does Jamie like the most?
+Answer: Jamie likes 게임 개발 the most.
+Question: What does Morgan like the most?
+Answer: Morgan likes Python the most.
+Sam is learning about 게임 개발.
+Today's goal is to practice 자바스크립트.
+Question: What does Riley like the most?
+Answer: Riley likes 그림 그리기 the most.
+Question: What does Jamie like the most?
+Answer: Jamie likes 자바스크립트 the most.
+Sam is learning about 게임 개발.
+Today's goal is to practice JavaScript.
+Riley did 산책 today.
+Casey is learning about 그림 그리기.
+Taylor did 운동 today.
+Today's goal is to practice JavaScript.
+Today's goal is to practice 자바스크립트.
+Riley did reading today.
+Today's goal is to practice 자바스크립트.
+Casey is learning about drawing.
+Today's goal is to practice 게임 개발.
+Morgan is learning about 파이썬.
+Jordan did 산책 today.
+Casey is learning about JavaScript.
+Question: What does Sam like the most?
+Answer: Sam likes 그림 그리기 the most.
+Question: What does Jordan like the most?
+Answer: Jordan likes 자바스크립트 the most.
+Jordan is learning about JavaScript.
+Alex did 독서 today.
+Question: What does Taylor like the most?
+Answer: Taylor likes game development the most.
+Jamie did cooking today.
+Question: What does Jamie like the most?
+Answer: Jamie likes game development the most.
+Question: What does Jamie like the most?
+Answer: Jamie likes 파이썬 the most.
+Jamie is learning about drawing.
+Today's goal is to practice 게임 개발.
+Question: What does Casey like the most?
+Answer: Casey likes game development the most.
+Casey is learning about 자바스크립트.
+Question: What does Taylor like the most?
+Answer: Taylor likes 자바스크립트 the most.
+Question: What does Jamie like the most?
+Answer: Jamie likes 게임 개발 the most.
+Alex did 산책 today.
+Today's goal is to practice JavaScript.
+Question: What does Taylor like the most?
+Answer: Taylor likes drawing the most.
+Today's goal is to practice drawing.
+Sam did reading today.
+Taylor is learning about JavaScript.
+Alex did 산책 today.
+Today's goal is to practice 파이썬.
+Morgan did 운동 today.
+Question: What does Morgan like the most?
+Answer: Morgan likes 파이썬 the most.
+Today's goal is to practice 그림 그리기.
+Question: What does Riley like the most?
+Answer: Riley likes game development the most.
+Today's goal is to practice 자바스크립트.
+Sam is learning about JavaScript.
+Question: What does Casey like the most?
+Answer: Casey likes 그림 그리기 the most.
+Today's goal is to practice 파이썬.
+Casey is learning about drawing.
+Jordan is learning about JavaScript.
+Morgan is learning about Python.
+Question: What does Jamie like the most?
+Answer: Jamie likes Python the most.
+Today's goal is to practice JavaScript.
+Morgan did a walk today.
+Jamie did 산책 today.
+Jamie did 운동 today.
+Taylor is learning about 자바스크립트.
+Alex is learning about JavaScript.
+Today's goal is to practice 그림 그리기.
+Today's goal is to practice 게임 개발.
+Casey is learning about game development.
+Question: What does Jordan like the most?
+Answer: Jordan likes JavaScript the most.
+Question: What does Riley like the most?
+Answer: Riley likes drawing the most.
+Taylor is learning about Python.
+Riley is learning about 그림 그리기.
+Today's goal is to practice JavaScript.
+Question: What does Riley like the most?
+Answer: Riley likes game development the most.
+Today's goal is to practice Python.
+Riley did 독서 today.
+Today's goal is to practice 그림 그리기.
+Riley is learning about Python.
+Sam is learning about 그림 그리기.
+Alex is learning about 그림 그리기.
+Alex is learning about game development.
+Question: What does Jamie like the most?
+Answer: Jamie likes 게임 개발 the most.
+Jordan did reading today.
+Today's goal is to practice JavaScript.
+Question: What does Alex like the most?
+Answer: Alex likes 그림 그리기 the most.
+Jordan did reading today.
+Morgan did exercise today.
+Question: What does Alex like the most?
+Answer: Alex likes Python the most.
+Casey did 산책 today.
+Today's goal is to practice drawing.
+Question: What does Taylor like the most?
+Answer: Taylor likes JavaScript the most.
+Jamie is learning about 게임 개발.
+Casey did 산책 today.
+Morgan is learning about JavaScript.
+Morgan did 독서 today.
+Jamie is learning about 그림 그리기.
+Riley did reading today.
+Today's goal is to practice Python.
+Riley did coding today.
+Sam did exercise today.
+Morgan is learning about Python.
+Riley did coding today.
+Jordan is learning about 게임 개발.
+Today's goal is to practice drawing.
+Taylor is learning about 자바스크립트.
+Today's goal is to practice 자바스크립트.
+Taylor did a walk today.
+Casey is learning about drawing.
+Taylor did a walk today.
+Jamie did 코딩 today.
+Morgan is learning about 파이썬.
+Today's goal is to practice game development.
+Question: What does Alex like the most?
+Answer: Alex likes 자바스크립트 the most.
